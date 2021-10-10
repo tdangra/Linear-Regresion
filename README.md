@@ -1,5 +1,5 @@
 # Linear-Regresion
-# To create the linear regression model
+# The linear regression model for the population of GA
 
 gamod <- lm(Population~Year, data=Georgia)
 coeff = coefficients(gamod)
